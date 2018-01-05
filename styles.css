@@ -1,0 +1,73 @@
+#top {
+  background-image: url(../img/back.png);
+  background-color: grey;
+}
+#squares{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -2;
+  position: absolute
+}
+#content *{
+  pointer-events: auto;
+}
+#content{
+  pointer-events: none;
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.8s ease-in-out;
+}
+#nickname{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  margin: 3px 0 30px 0;
+  text-shadow: rgba(0, 0, 0, 0.48) 2.828px 2.828px 8px;
+  color: white
+}
+a {
+    text-decoration: none;
+   }
+   A {
+    color:white;
+   }
+   A:visited {
+    color:white;
+   }
+   A:active {
+    color:white;
+  }
+#name {
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  margin: 3px 0 30px 0;
+  text-shadow: rgba(0, 0, 0, 0.48) 2.828px 2.828px 8px;
+  color:#00FF00;
+}
+#notification{
+  position: absolute;
+  max-width: 400px;
+  max-height: 80px;
+  top: 0;
+  left: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  animation: notification 0.8s ease-in-out;
+  padding: 15px;
+  margin: 20px;
+  background: white;
+  opacity: 0.8;
+  border-radius: 15px;
+}
+#name{
+  font-family: "Calibri", bold;
+  font-size: 22px;
+  color: #FF00FF;
+}
